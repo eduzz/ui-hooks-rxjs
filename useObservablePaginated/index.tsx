@@ -77,7 +77,7 @@ export default function useObservablePaginated<P extends PaginationParams, R>(
         page: 1,
         perPage: 10,
         ...(initialParamsOption ?? {})
-      } as P)
+      }) as P
   );
   const [params, setParams] = React.useState<P>(() => ({ ...initialParams }));
 
