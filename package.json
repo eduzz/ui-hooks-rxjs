@@ -1,7 +1,7 @@
 {
   "name": "@eduzz/ui-hooks-rxjs",
   "description": "Eduzz Hooks: RxJs",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "keywords": [
     "rxjs",
     "react-hooks",
